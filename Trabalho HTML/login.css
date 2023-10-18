@@ -1,0 +1,95 @@
+body 
+{
+    background-color: #728fce;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+ul{
+
+	display: flex;
+	align-items: center;
+	margin: 0px;
+	height: 70px;
+	background-image: linear-gradient(to bottom, #93adcf, #8bb4e9 );
+}
+
+ li{
+	
+	display: inline-block;
+	font-weight: bold;
+	color: #fff;
+	padding: 20px 30px;
+
+}
+
+li:hover{
+
+	background-image: linear-gradient(to top, #0c52ad, #0959c2 );
+	box-shadow: inset 3px 3px 10px rgba(0, 0, 0, 0.5);
+	text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.w{
+
+	padding-right: 5%;
+	flex-direction: row;
+
+}
+
+
+#container
+{
+    border: 0.5px rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255); 
+    width: 45%;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: auto;
+
+    margin-top: 50px;
+    border-radius: 15px;
+}
+.AA div
+{
+    font-weight: bold;
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.AA div input
+{
+
+width: 70%;
+height: 30px;
+float: right;
+
+}
+
+img {
+    padding: 5px;
+    width: 100px;
+    float: right;
+  }
+
+
+
+.botao1    {
+    float: left;
+    background-color: rgb(250, 142, 0);
+    margin-right: 8px;
+    width: 90px;
+    height: 30px;
+    color: rgb(0, 0, 0); 
+
+}
+
+.botao2  {
+    background-color: #123456;
+    margin-right: 8px;
+    width: 90px;
+    height: 30px;
+    color: rgb(0, 0, 0); 
+  
+}

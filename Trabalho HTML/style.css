@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+	
+	background-color: #bcc3cc;
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.center{
+    flex-wrap: wrap;
+    display: flex;
+    max-width: 1000;
+    margin: auto;
+    padding: 2%;
+    background-color: #5f6eac;
+}
+ul{
+
+	display: flex;
+	align-items: center;
+	margin: 0px;
+	height: 70px;
+	background-image: linear-gradient(to bottom, #93adcf, #8bb4e9 );
+}
+li{
+	
+	display: inline-block;
+	font-weight: bold;
+	color: #fff;
+	padding: 20px 30px;
+
+}
+
+li:hover{
+
+	background-image: linear-gradient(to top, #042a5c, #0959c2 );
+	box-shadow: inset 3px 3px 10px rgba(0, 0, 0, 0.5);
+	text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.w{
+	padding-right: 5%;
+	flex-direction: row;
+
+}
+.estilo{
+    position: absolute;
+    bottom: -300px;
+    right: -300px;
+    width: 1000px;
+    height: 1000px;
+}
+.lua{
+    position: absolute;
+    bottom: 0px;
+    right: 500px;
+    width: 100px;
+    height: 600px;
+}
+.lua img{
+    position: relative;
+    top: -200px;
+    right: 230px;
+    width: 1300px;
+    height: 1300px;
+}
+.sobre{
+    margin-top: 100px;
+    right: -30px;
+    position: relative;
+    text-shadow: 3px 3px 3px black;
+    background-color: #7ea1ce;
+    border-radius: 10px;
+    padding: 1%;
+}
+.sobre h1{
+    font-size: 90px;
+    font-style: oblique;
+    font-family: sans-serif;
+}
+.estilo2{
+    position: relative;
+    background-color: #7ea1ce;
+    
+    border-radius: 10px;
+    padding: 8%;
+    margin-left: 29px;
+}
+.loboparado{
+    position: absolute;
+    bottom: -530px;
+    right: 550px;
+    width: 450px;
+    height: 999px;
+    box-shadow: #000000;
+}
